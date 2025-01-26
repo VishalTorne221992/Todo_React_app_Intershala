@@ -15,7 +15,7 @@ body{
 }
 
 .Todo_list{
-    @apply w-3xl mt-4;
+    @apply w-4xl mt-4;
     background-color: rgb(255, 244, 230);
 }
 

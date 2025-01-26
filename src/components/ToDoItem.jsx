@@ -26,7 +26,7 @@ function ToDoItem(props) {
 
     editContent.setAttribute('type','text');
     editContent.id = 'edit_Todo_Name';
-    editContent.style.width = '200px';
+    editContent.style.width = '300px';
     editContent.value = comp.current.textContent;
     editContent.style.textIndent = '.3rem';
 

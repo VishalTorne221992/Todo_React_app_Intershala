@@ -46,7 +46,7 @@ function ToDoList() {
               onClick={() => addTodo()}>✚</button>
         </div>
         <section className="Todo_Wrapper flex justify-center items-center w-full h-full">
-           <div className='Todo_list flex flex-col justify-center border-4 border-orange-800'>
+           <div className='Todo_list flex flex-col justify-center border-4 border-amber-900'>
             <div className="todolist_header w-full h-full">
               <span className="header header1 border-2">TO - DOS</span>
               <span className="header header2 border-2">DELETE</span>
