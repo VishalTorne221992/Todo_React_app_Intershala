@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    @apply bg-slate-100;
+}
+
+.todo_search{
+    @apply py-8;
+}
+
+.Todo_list{
+    @apply w-3xl mt-4;
+    background-color: rgb(255, 244, 230);
+}
+
+
+.todo_Item_styles{
+    @apply m-1.5 border-2 border-l-purple-950 flex justify-between items-center gap-2;
+}
+
+.todo_Heading{
+    @apply mx-6;
+}
+
+.td_edit{
+    @apply flex justify-evenly items-center mr-1 w-lg gap-1;
+}
+
+
+
+.todolist_header{
+    display: flex;
+    justify-content: start;
+    background-color: rgb(1, 1, 54);
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.header1{
+    flex-basis: 22em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: .5rem;
+}
+
+.header2{
+    flex-basis: 7.5em;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header3{
+    flex-basis: 11.5em;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header4{
+    flex-basis: 7.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: .5rem;
+}
+
+
+.top_logo{
+    font-family: "Protest Strike", serif;
+    font-size: 2rem;
+    border: 2px solid black;
+    background-color: rgb(39, 1, 75);
+    color: white;
+    padding-left: 5rem;
+}
