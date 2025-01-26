@@ -3,7 +3,7 @@
 This TODO App allows users to add each day tasks which they want to do in the day and mark them as completed if they want to and 
 allows them to edit there todo's and delete them too !
 
-# Github repo Link : https://github.com/VishalTorne221992/Todo_React_app_Intershala.git
+Github repo Link : https://github.com/VishalTorne221992/Todo_React_app_Intershala.git
 
 Here is how to use the Application :
 
